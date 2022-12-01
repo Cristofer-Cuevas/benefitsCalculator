@@ -26,10 +26,6 @@ const timeWorkingInMiliSeconds = costumer.finalDate.getTime() - costumer.startDa
 const timeWorkingInDays = timeWorkingInMiliSeconds / Day;
 const timeWorkingInMonths = Math.floor(timeWorkingInDays / 30.47);
 
-// console.log(timeWorkingInMiliSeconds);
-// console.log(timeWorkingInDays);
-console.log(timeWorkingInMonths);
-
 const calculateBenefits = () => {
   const dailySalary = Number((costumer.salary / 23.83).toFixed(2));
 
